@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>E-commerce</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="navbar">
+  <div class="logo">
+   <a href="index.html">Shopping Store</a>
+  </div>
+  <div class="gen-search" id="search">
+   <div class="search">
+   <div class="search-icon" id="search_icon">
+   <i class="fa fa-search" aria-hidden="true"></i>
+   </div>
+   <input type="search" id="input_search" placeholder="Search products, brand and categories">
+   <div class="cancel">
+   <i class="fa fa-times" aria-hidden="true"></i>
+   </div>
+   </div>
+   <div class="search-btn">Search</div>
+  </div>
+  <div class="nav">
+   <div class="profile">
+    <a href="login.html"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+   </div>
+   <a href="cart.html">
+   <div class="cart" id="cart">
+    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+   <div id="cartAmount">0</div>
+   </div>
+   </a>
+  </div>
+ </div>
+ <div id="label" class="text">
+  <!-- <div><i class="fa fa-shopping-cart fa-3x" aria-hidden="true" ></i></div>
+  <p>Your cart is empty!</p>
+  <p>Browse our categories and discover our best deals</p>
+  <button><a href="index.html">Start Shopping</a></button> -->
+ </div>
+ <div class="shopping-cart" id="shopping-cart"></div>
+</body>
+<script src="cart.js"></script>
+<!-- <script src="data.js"></script> -->
+</html>
